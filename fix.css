@@ -1,0 +1,25 @@
+
+.name{
+    position: fixed;
+    top: 25px;
+    right: 45%;
+    text-decoration: underline;
+}
+
+header{
+    border: 2px solid black;
+
+}
+
+.img1{
+    width: 100px;
+    height: 100px;
+}
+
+nav{
+    justify-self: center;
+}
+
+a{
+    padding: 0 25px;
+}
