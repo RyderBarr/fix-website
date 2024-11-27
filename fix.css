@@ -1,3 +1,10 @@
+*{
+background-color: rgb(102, 0, 0);
+}
+
+a{
+color: orange;
+}
 
 .name{
     position: fixed;
@@ -20,6 +27,29 @@ nav{
     justify-self: center;
 }
 
-a{
+nav > a{
     padding: 0 25px;
+}
+
+main{
+    justify-self: center;
+    margin: 40px 0px;
+}
+
+footer{
+    justify-self: center;
+}
+
+.img2{
+    position: relative;
+    right: 250px;
+}
+
+.img3{
+
+}
+
+.img4{
+    position: relative;
+    left: 250px;
 }
