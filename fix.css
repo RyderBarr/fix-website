@@ -1,7 +1,20 @@
 *{
-background-color: rgb(102, 0, 0);
+color: white;
 }
-
+body{
+    animation: 2s gradient linear infinite;
+}
+@keyframes gradient {
+    0%{
+    background-image: radial-gradient(black, rgb(102, 0, 0), black);
+    }
+    50%{
+    background-image: radial-gradient( rgb(102, 0, 0), black, rgb(102, 0, 0));
+    }
+    100%{
+    background-image: radial-gradient(black, rgb(102, 0, 0), black);
+    }
+}
 a{
 color: orange;
 }
@@ -12,16 +25,19 @@ color: orange;
     right: 45%;
     text-decoration: underline;
 }
+.div1{
 
+}
+.div2{
+
+}
 header{
-    border: 2px solid black;
-
+    
+    display: flex;
+    align-items: start;  
+    justify-self: center;
 }
 
-.img1{
-    width: 100px;
-    height: 100px;
-}
 
 nav{
     justify-self: center;
@@ -31,18 +47,34 @@ nav > a{
     padding: 0 25px;
 }
 
+a:hover{
+    padding: 10px;
+    animation: 4s link linear infinite;
+}
+@keyframes link {
+    0%{font-size: 16px;}
+    50%{font-size: 20px;}
+    100%{font-size: 16px;}
+}
+
 main{
     justify-self: center;
     margin: 40px 0px;
+    justify-items: center;
 }
 
 footer{
     justify-self: center;
+    position: relative;
+    bottom: 0px;
 }
-
+.img1{
+    margin-top: 2px;
+}
 .img2{
     position: relative;
     right: 250px;
+ 
 }
 
 .img3{
@@ -52,4 +84,11 @@ footer{
 .img4{
     position: relative;
     left: 250px;
+}
+input{
+    background-color: rgb(102, 0, 0);
+
+}
+input::placeholder{
+    color: white;
 }
